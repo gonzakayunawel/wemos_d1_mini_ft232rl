@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Site for Wemos</title>
+    <style>
+        body {
+        background:#201f1f;
+        }
+        .btn-danger{
+        color:white;
+        background:red;
+        }
+        .btn-success{
+        color:white;
+        background:green;
+        }
+        .btn{
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid;
+        border-radius: 5px;
+        box-shadow: inset 0px -4px 10px black;
+        }
+        .button:hover{
+        box-shadow: inset 1px 0px 10px 7px #000000d1;
+        }
+        .container{
+        text-align:center;
+        }
+        .button-cont{
+        margin:40px;
+        }
+        span{
+        font-weight: bold;
+        color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <br>
+        <br>
+        <div class='btn-cont'>
+            <span>Led 1</span>
+                <a class='btn btn-success' href='/led1=1'>ON</a>
+                <a class='btn btn-danger' href='/led1=0'>OFF</a>
+        </div>
+        <br>
+        <br>
+        <div>
+            <span>Led 2</span>
+                <a class='btn btn-success' href='/led2=1'>ON</a>
+                <a class='btn btn-danger' href='/led2=0'>OFF</a>
+        </div>
+    </div>
+</body>
+</html>

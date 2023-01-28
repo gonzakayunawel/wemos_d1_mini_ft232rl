@@ -1,0 +1,80 @@
+<!-- https://htmlcompressor.com/compressor/ -->
+
+<html>
+    <head>
+        <title>Test Site for Wemos 2</title>
+        <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background:#201f1f;
+            }
+            .btn-title{
+                font-weight: bold;
+                color:white;
+            }
+            .btn-danger{
+                color:white;
+                background:red;
+            }
+            .btn-success{
+                color:white;
+                background:green;
+            }
+            .btn{
+                text-decoration: none;
+                padding: 10px;
+                margin: 10px;
+                border: 1px solid;
+                border-radius: 5px;
+                box-shadow: inset 0px -4px 10px black;
+            }
+            .button:hover{
+                box-shadow: inset 1px 0px 10px 7px #000000d1;
+            }
+            .container{
+                text-align:center;
+            }
+            .button-cont{
+                margin:40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h5 class="btn-title">LED 1</h5>
+                <a href="/led1=on" class="btn btn-success">ON</a>
+                <a href="/led1=off" class="btn btn-danger">OFF</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h5 class="btn-title">LED 2</h5>
+                <a href="/led2=on" class="btn btn-success">ON</a>
+                <a href="/led2=off" class="btn btn-danger" >OFF</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h5 class="btn-title">LED 3</h5>
+                <a href="/led3=on" class="btn btn-success">ON</a>
+                <a href="/led3=off" class="btn btn-danger">OFF</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h5 class="btn-title">LED 4</h5>
+                <a href="/led4=on" class="btn btn-success">ON</a>
+                <a href="/led4=off" class="btn btn-danger" >OFF</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h5 class="btn-title">Secuencia de LEDs</h5>
+                <a href="/led5=on" class="btn btn-success">ON</a>
+                <a href="/led5=off" class="btn btn-danger" >OFF</a>
+            </div>
+        </div>
+    </body>
+</html>
